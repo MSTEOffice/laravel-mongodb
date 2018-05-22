@@ -9,7 +9,6 @@
             "homepage": "https://jenssegers.com"
         }
     ],
-    "version": "3.2.0",
     "license" : "MIT",
     "require": {
         "illuminate/support": "^5.1",
@@ -46,6 +45,9 @@
                 "Jenssegers\\Mongodb\\MongodbServiceProvider",
                 "Jenssegers\\Mongodb\\MongodbQueueServiceProvider"
             ]
+        }
+        "branch-alias": {
+            "dev-3.2-bugfix": "3.2"
         }
     }
 }
