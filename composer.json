@@ -9,7 +9,7 @@
             "homepage": "https://jenssegers.com"
         }
     ],
-    "version": "3.2.x",
+    "version": "3.2.0",
     "license" : "MIT",
     "require": {
         "illuminate/support": "^5.1",
