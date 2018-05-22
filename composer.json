@@ -47,7 +47,7 @@
             ]
         },
         "branch-alias": {
-            "dev-3.2-bugfix": "3.2.0"
+            "dev-3.2-bugfix": "v3.2.0"
         }
     }
 }
