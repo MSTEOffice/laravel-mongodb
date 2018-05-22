@@ -22,7 +22,7 @@ class DatabaseTokenRepository extends BaseDatabaseTokenRepository
      */
     protected function tokenExpired($createdAt)
     {
-        // Convert UTCDateTime to a date string.
+		//Convert UTCDateTime to a date string.
         if ($createdAt instanceof UTCDateTime) {
             $date = $createdAt->toDateTime();
             $date->setTimezone(new DateTimeZone(date_default_timezone_get()));
@@ -32,7 +32,7 @@ class DatabaseTokenRepository extends BaseDatabaseTokenRepository
             $date->setTimezone(new DateTimeZone(date_default_timezone_get()));
             $createdAt = $date->format('Y-m-d H:i:s');
         }
-
+        
         return parent::tokenExpired($createdAt);
     }
 }
